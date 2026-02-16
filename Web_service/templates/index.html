@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mashup Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h1>🎵 Mashup Generator</h1>
+
+    <form method="POST">
+        <input type="text" name="singer" placeholder="Singer Name" required>
+
+        <input type="number" name="videos" placeholder="Number of Videos (>10)" required>
+
+        <input type="number" name="duration" placeholder="Duration in Seconds (>20)" required>
+
+        <input type="email" name="email" placeholder="Enter Your Email" required>
+
+        <button type="submit">Create Mashup</button>
+    </form>
+
+    {% if message %}
+        <p class="success">{{ message }}</p>
+    {% endif %}
+</div>
+
+</body>
+</html>
