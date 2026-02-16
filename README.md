@@ -70,20 +70,6 @@ setx EMAIL_USER "your_email"
 setx EMAIL_PASS "your_app_password"
 ```
 
-Project Structure
-Mashup/
-│
-├── Program1/
-│   └── 102353006.py
-│
-├── Program2/
-│   ├── app.py
-│   ├── mashup_script.py
-│   ├── templates/
-│   └── static/
-│
-└── README.md
-
 Warning:
 YouTube may block automated downloads depending on network.
 
