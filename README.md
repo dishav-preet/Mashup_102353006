@@ -26,10 +26,10 @@ Command-line mashup generator.
 python 102353006.py "Singer Name" 20 30 output.mp3
 ```
 Parameters
-Singer Name → Artist to search
-20 → Number of videos (must be >10)
-30 → Duration in seconds (must be >20)
-output.mp3 → Final mashup file
+*Singer Name → Artist to search
+*20 → Number of videos (must be >10)
+*30 → Duration in seconds (must be >20)
+*output.mp3 → Final mashup file
 
 ## Program 2 – Web Version (Flask)
 
@@ -46,22 +46,22 @@ http://127.0.0.1:5000
 ```
 
 User inputs:
-Singer Name
-Number of Videos
-Duration
-Email Address
+-Singer Name
+-Number of Videos
+-Duration
+-Email Address
 
 The mashup is generated and sent via email.
 
 Technologies Used
-Python
-Flask
-yt-dlp
-FFmpeg
-Node.js
-pydub
-HTML & CSS
-smtplib
+-Python
+-Flask
+-yt-dlp
+-FFmpeg
+-Node.js
+-pydub
+-HTML & CSS
+-smtplib
 
 Security
 Email credentials are stored using environment variables:
