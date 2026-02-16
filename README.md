@@ -44,15 +44,15 @@ Then open in browser:
 ```bash
 http://127.0.0.1:5000
 ```
-
+```
 User inputs:
 -Singer Name
 -Number of Videos
 -Duration
 -Email Address
-
+```
 The mashup is generated and sent via email.
-
+```
 Technologies Used
 -Python
 -Flask
@@ -62,7 +62,7 @@ Technologies Used
 -pydub
 -HTML & CSS
 -smtplib
-
+```
 Security
 Email credentials are stored using environment variables:
 ```bash
